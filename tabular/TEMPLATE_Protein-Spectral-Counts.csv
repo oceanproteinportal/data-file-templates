@@ -1,0 +1,1 @@
+sample_id,cruise_id,station_id,latitude_dd,longitude_dd,depth_m,date_y-m-d,time_h-m-s,minimum_filter_size_microns,maximum_filter_size_microns,protein_id,protein_name,spectral_count,molecular_weight_kDa,ncbi_id,ncbi_name,kegg_id,kegg_description,kegg_pathway,pfams_id,pfams_name,uniprot_id,enzyme_comm_id,other_identified_proteins
