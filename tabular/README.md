@@ -16,6 +16,7 @@ For any recommended or optional fields that are present in the tabular files, pl
 For any cell that can store multiple values, please notify us of the string which identifies the delimiter between each value.		
 
 ## Protein Spectral Counts ##
+(_[view as CSV](TEMPLATE_README.csv#L1)_)
 
 | protein spectral count fields | Definition                                                                                                                                             | required, recommended or optional | data type | units           | format     | multi-valued data cell? | relationships between files                             | example                                 | 
 |-------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------|-----------|-----------------|------------|-------------------------|---------------------------------------------------------|-----------------------------------------| 
@@ -47,6 +48,7 @@ For any cell that can store multiple values, please notify us of the string whic
 [back to top](#)
 
 ## Peptide Spectral Counts ##
+(_[view as CSV](TEMPLATE_README.csv#L27)_)
 
 | peptide spectral count fields | Definition                                                                                                                                             | required, recommended or optional | data type | units           | format     | multi-valued data cell? | relationships between files                             | example                                 | 
 |-------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------|-----------|-----------------|------------|-------------------------|---------------------------------------------------------|-----------------------------------------| 
