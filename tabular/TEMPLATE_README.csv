@@ -1,15 +1,3 @@
-3 Files,,,,,,,,
-protein spectral count (tabular),(see template),,,,,,,
-protein FASTA,,,,,,,,
-peptide spectral count (tabular),(see template),,,,,,,
-,,,,,,,,
-Missing Values,,,,,,,,
-"For any recommended or optional fields that are present in the tabular files, please notify us of the string which identifies a missing value for each applicable column.",,,,,,,,
-,,,,,,,,
-Multi-values Data Cells,,,,,,,,
-"For any cell that can store multiple values, please notify us of the string which identifies the delimiter between each value.",,,,,,,,
-,,,,,,,,
-,,,,,,,,
 protein spectral count fields,Definition,"required, recommended or optional",data type,units,format,multi-valued data cell?,relationships between files,example
 sample_id,Identifies the sample associated with this annotation,required,string,n/a,,no,,st6_200m_CID
 cruise_id,Identifies the cruise on which collection occurred,required,string,n/a,,no,,KM1128
