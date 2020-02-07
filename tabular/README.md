@@ -1,19 +1,63 @@
 # Creating an Ocean Protein Portal Data Submission #
 
+Data files and metadata should be submitted to the [Biological and Chemical Oceanography Data Management Office (BCO-DMO)](https://www.bco-dmo.org/).  Your data will be served from a Dataset Landing Page at BCO-DMO in addition to being injested into the Ocean Porotein Portal.
+
 ## Steps ##
-1. **Format the data**
-    * [Protein Spectral Count](#protein-spectral-counts)
-    * Protein FASTA file
-    * [Peptide Spectral Count](#peptide-spectral-counts)
-2. **Contact Us @ [contact@oceanproteinportal.org](mailto:contact@oceanproteinportal.org)**
-    * NOTE: [Missing Values](#missing-values)
-    * NOTE: [Multi-valued Data Cells](#multi-valued-data-cells)
 
-#### Missing Values	####
-For any recommended or optional fields that are present in the tabular files, please notify us of the string which identifies a missing value for each applicable column.		
+### Format the data ###
 
-#### Multi-valued Data Cells ####
-For any cell that can store multiple values, please notify us of the string which identifies the delimiter between each value.		
+Format your data according to the following templates.
+
+Column names as a csv file:
+* Protein Spectral Counts [[template](tabular/TEMPLATE_Protein-Spectral-Counts.csv)] _(csv)_
+* FASTA of Protein Identifications
+* Peptide Spectral Counts [[template](tabular/TEMPLATE_Peptide-Spectral-Counts.csv)] _(csv)_
+
+Column descriptions, units, types, and requirements:
+* [Protein Spectral Counts](#protein-spectral-counts) 
+* Protein FASTA file
+* [Peptide Spectral Counts](#peptide-spectral-counts)
+
+Formatting instructions:
+* Include all data columns labeled as "required" in your data.  
+* Use the OPP templates column names in your data files.  
+* Protein identifiers used in your FASTA file should match the identifiers in your spectral count data.
+* Ensure that your data are processed, QA/QC’ed and research ready.  
+* Check that your data are compliant with the types defined in the template (e.g. best_protein_id_probability is a float so shouldn’t include the % symbol).
+* You can include additional columns not defined in the template.
+
+### Fill out a metadata form ###
+
+Download a copy of the BCO-DMO [DATASET.rtf](https://www.bco-dmo.org/files/bcodmo/DATASET.rtf) metadata form.
+
+The form includes a section to document your **Parameter names, descriptions, units.**  You can download a copy of the template column names, descriptoins and units csv files and modify them as needed so they correctly describe your data. 
+* [Protein Spectral Counts: names, descriptions, units](TEMPLATE_README.csv#L1)
+* [Protein Spectral Counts: names, descriptions, units](TEMPLATE_README.csv#L27) 
+
+You can include these column descriptions directly in your DATASET.rtf metadata form, or include them as separate csv or Excel files in your submission.
+
+Make sure to include in your column descriptions:
+* The time zone of the date and time columns.
+* Include any missing data identifiers used in your data (e.g. NA, nd, NaN, -999)
+* For any cell that can store multiple values (e.g. other_protein_ids), please notify us of the string which identifies the delimiter between each value.
+
+More guidance about preparing files for submission to BCO-DMO can be found on the [How To](https://www.bco-dmo.org/how-get-started) page.
+
+### Submit your data ###
+
+* Email your data files and a completed copy of the DATASET.rtf (metadata form) to info@bco-dmo.org.
+* In your email, indicate that you would like the dataset included in the Ocean Protein Portal.
+
+## What happens after I submit data?  ##
+
+A data manager will:
+* Confirm receipt of your dataset.  
+* Create a public dataset landing page at BCO-DMO with the metadata you included in your DATASET.rtf metadata form.  
+* Ask questions during the data serving process, and get back to you for your final review of the data and metadata before it is imported into OPP. 
+* Publish your final, validated dataset on the BCO-DMO website.
+* Mint a Digital Object Identifier (DOI) for your data.
+
+If you have any questions about submitting data please contact **Contact Us @ [contact@oceanproteinportal.org](mailto:contact@oceanproteinportal.org)** or [info@bco-dmo.org](info@bco-dmo.org),
 
 ## Protein Spectral Counts ##
 (_[view as CSV](TEMPLATE_README.csv#L1)_)
@@ -58,7 +102,7 @@ For any cell that can store multiple values, please notify us of the string whic
 | latitude_dd                   | The latitude at the station in decimal degrees (-90 to 90) related to the protein from which this peptide was derived                                  | required                          | float     | decimal degrees |            | no                      |                                                         | 17                                      | 
 | longitude_dd                  | The longitude at the station in decimal degrees (-180 to 180)  related to the protein from which this peptide was derived                              | required                          | float     | decimal degrees |            | no                      |                                                         | -154.4                                  | 
 | depth_m                       | The depth in meters at which the sample as taken related to the protein from which this peptide was derived                                            | required                          | float     | meters          |            | no                      |                                                         | 200                                     | 
-| date_y-m-d                    | The date of sample collection related to the protein from which this peptide was derived                                                               | required                          | string    | n/a             | yyyy-mm-dd | no                      |                                                         | 2011-10-17                              | 
+| date_y-m-d                    | The local date of sample collection related to the protein from which this peptide was derived                                                               | required                          | string    | n/a             | yyyy-mm-dd | no                      |                                                         | 2011-10-17                              | 
 | time_h-m-s                    | The local time of sample collection related to the protein from which this peptide was derived. Hour and minutes should be provided. Seconds optional. | recommended                       | string    | n/a             | hh:mm[:ss] | no                      |                                                         | 23:30                                   | 
 | minimum_filter_size_microns   | Minimum size of the collection filter in microns related to the protein from which this peptide was derived                                            | required                          | float     | microns         |            | no                      |                                                         | 0.2                                     | 
 | maximum_filter_size_microns   | Maximum size of the collection filter in microns related to the protein from which this peptide was derived                                            | required                          | float     | microns         |            | no                      |                                                         | 3                                       | 
