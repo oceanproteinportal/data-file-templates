@@ -2,6 +2,8 @@
 
 Data files and metadata should be submitted to the [Biological and Chemical Oceanography Data Management Office (BCO-DMO)](https://www.bco-dmo.org/).  Your data will be served from a Dataset Landing Page at BCO-DMO in addition to being imported into the Ocean Porotein Portal.
 
+If you have any questions about submitting data please Contact Us @ contact@oceanproteinportal.org or info@bco-dmo.org.
+
 ## Steps ##
 
 ### Format the data ###
