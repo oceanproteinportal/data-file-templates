@@ -37,8 +37,8 @@ Formatting instructions:
 Download a copy of the BCO-DMO [DATASET.rtf](https://www.bco-dmo.org/files/bcodmo/DATASET.rtf) metadata form.
 
 The form includes a section to document your **Parameter names, descriptions, units.**  You can download a copy of the template column names, descriptions and units csv files and modify them as needed so they correctly describe your data. 
-* [Protein Spectral Counts: names, descriptions, units](TEMPLATE_README.csv#L1) (csv)
-* [Peptide Spectral Counts: names, descriptions, units](TEMPLATE_README.csv#L27) (csv)
+* [Protein Spectral Counts: names, descriptions, units](tabular/TEMPLATE_README.csv#L1) (csv)
+* [Peptide Spectral Counts: names, descriptions, units](tabular/TEMPLATE_README.csv#L27) (csv)
 
 You can include these column descriptions directly in your DATASET.rtf metadata form, or include them as separate csv or Excel files in your submission.
 
