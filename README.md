@@ -20,9 +20,9 @@ Column names as a csv file:
 * Peptide Spectral Counts [[template](tabular/TEMPLATE_Peptide-Spectral-Counts.csv)] _(csv)_
 
 Column descriptions, units, types, and requirements:
-* [Protein Spectral Counts](#protein-spectral-counts) 
+* [Protein Spectral Counts](#protein-spectral-count-field-names-descriptions-units)
 * Protein FASTA file
-* [Peptide Spectral Counts](#peptide-spectral-counts)
+* [Peptide Spectral Counts](#peptide-spectral-count-field-names-descriptions-units)
 
 Formatting instructions:
 * Include all data columns labeled as "required" in your data.  
