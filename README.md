@@ -1,6 +1,6 @@
 # Ocean Protein Portal - Data File Templates #
 
-Data file templates for contributing data to the Ocean Portein Portal (V 1.1) https://proteinportal.whoi.edu/.
+Data file templates for contributing data to the Ocean Protein Portal (V 1.1) https://proteinportal.whoi.edu/.
 
 ## Creating an Ocean Protein Portal Data Submission
 
