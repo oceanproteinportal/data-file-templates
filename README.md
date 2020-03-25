@@ -14,18 +14,18 @@ If you have any questions about submitting data please Contact Us @ contact@ocea
 
 Format your data according to the following templates.
 
-Column names as a csv file:
+Field names as a csv file:
 * Protein Spectral Counts [[template](tabular/TEMPLATE_Protein-Spectral-Counts.csv)] _(csv)_
 * FASTA of Protein Identifications
 * Peptide Spectral Counts [[template](tabular/TEMPLATE_Peptide-Spectral-Counts.csv)] _(csv)_
 
-Column descriptions, units, types, and requirements:
+Field descriptions, units, types, and requirements:
 * [Protein Spectral Counts](#protein-spectral-count-field-names-descriptions-units)
 * Protein FASTA file
 * [Peptide Spectral Counts](#peptide-spectral-count-field-names-descriptions-units)
 
 Formatting instructions:
-* Include all data columns labeled as "required" in your data.  
+* Include all data fields labeled as "required" in your data.  
 * Use the OPP templates column names in your data files.  
 * Protein identifiers used in your FASTA file should match the identifiers in your spectral count data.
 * Ensure that your data are processed, QA/QC’ed and research ready.  
