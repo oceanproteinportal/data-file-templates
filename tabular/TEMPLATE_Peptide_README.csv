@@ -16,7 +16,7 @@ protein_molecular_weight_kDa,The molecular weight in kilo-Daltons of the related
 protein_id,,required,string,n/a,,no,The protein identifier from the protein spectral counts,
 spectral_count_sum,,recommended,integer,n/a,,no,,
 other_protein_ids,,optional,string,n/a,,no,A protein identifier from the protein spectral counts,
-best_protein_id_probability,A percentage identifying the quality of the protein identification,optional,float,n/a,,no,,
+best_protein_id_probability,A probability (0-1) identifying the quality of the protein identification,optional,float,n/a,,no,,
 best_sequest_DCn_score,,optional,,n/a,,no,,
 best_sequest_Xcorr_score,,optional,,n/a,,no,,
 plus2H_spectra_count,,optional,integer,n/a,,no,,
