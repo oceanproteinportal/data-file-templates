@@ -11,9 +11,9 @@ If you have any questions about submitting data please Contact Us @ contact@ocea
 Format your data according to the following templates.
 
 Column names as a csv file:
-* Protein Spectral Counts [[template](tabular/TEMPLATE_Protein-Spectral-Counts.csv)] _(csv)_
+* Protein Spectral Counts [[template](TEMPLATE_Protein-Spectral-Counts.csv)] _(csv)_
 * FASTA of Protein Identifications
-* Peptide Spectral Counts [[template](tabular/TEMPLATE_Peptide-Spectral-Counts.csv)] _(csv)_
+* Peptide Spectral Counts [[template](TEMPLATE_Peptide-Spectral-Counts.csv)] _(csv)_
 
 Column descriptions, units, types, and requirements:
 * [Protein Spectral Counts](#protein-spectral-counts) 
