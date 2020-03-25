@@ -66,7 +66,7 @@ A data manager will:
 If you have any questions about submitting data please contact **Contact Us @ [contact@oceanproteinportal.org](mailto:contact@oceanproteinportal.org)** or [info@bco-dmo.org](info@bco-dmo.org),
 
 ## Protein Spectral Counts ##
-(_[view as CSV](TEMPLATE_README.csv#L1)_)
+(_[view as CSV](tabular/TEMPLATE_README.csv#L1)_)
 
 | protein spectral count fields | Definition                                                                                                                                             | required, recommended or optional | data type | units           | format     | multi-valued data cell? | relationships between files                             | example                                 | 
 |-------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------|-----------|-----------------|------------|-------------------------|---------------------------------------------------------|-----------------------------------------| 
@@ -98,7 +98,7 @@ If you have any questions about submitting data please contact **Contact Us @ [c
 [back to top](#)
 
 ## Peptide Spectral Counts ##
-(_[view as CSV](TEMPLATE_README.csv#L27)_)
+(_[view as CSV](tabular/TEMPLATE_README.csv#L27)_)
 
 | peptide spectral count fields | Definition                                                                                                                                             | required, recommended or optional | data type | units           | format     | multi-valued data cell? | relationships between files                             | example                                 | 
 |-------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------|-----------|-----------------|------------|-------------------------|---------------------------------------------------------|-----------------------------------------| 
