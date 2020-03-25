@@ -37,8 +37,7 @@ Formatting instructions:
 Download a copy of the BCO-DMO [DATASET.rtf](https://www.bco-dmo.org/files/bcodmo/DATASET.rtf) metadata form.
 
 The form includes a section to document your **Parameter names, descriptions, units.**  You can download a copy of the template column names, descriptions and units csv files and modify them as needed so they correctly describe your data. 
-* [Protein Spectral Counts: names, descriptions, units](tabular/TEMPLATE_README.csv#L1) (csv)
-* [Peptide Spectral Counts: names, descriptions, units](tabular/TEMPLATE_README.csv#L27) (csv)
+* [Protein and Peptide Spectral Count Column: names, descriptions, units](tabular/TEMPLATE_README.csv) (csv)
 
 You can include these column descriptions directly in your DATASET.rtf metadata form, or include them as separate csv or Excel files in your submission.
 
@@ -66,7 +65,7 @@ A data manager will:
 If you have any questions about submitting data please contact **Contact Us @ [contact@oceanproteinportal.org](mailto:contact@oceanproteinportal.org)** or [info@bco-dmo.org](info@bco-dmo.org),
 
 ## Protein Spectral Counts ##
-(_[view as CSV](tabular/TEMPLATE_README.csv#L1)_)
+(_[download as CSV](https://github.com/oceanproteinportal/data-file-templates/raw/master/tabular/TEMPLATE_README.csv)_)
 
 | protein spectral count fields | Definition                                                                                                                                             | required, recommended or optional | data type | units           | format     | multi-valued data cell? | relationships between files                             | example                                 | 
 |-------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------|-----------|-----------------|------------|-------------------------|---------------------------------------------------------|-----------------------------------------| 
@@ -98,7 +97,7 @@ If you have any questions about submitting data please contact **Contact Us @ [c
 [back to top](#)
 
 ## Peptide Spectral Counts ##
-(_[view as CSV](tabular/TEMPLATE_README.csv#L27)_)
+(_[download as CSV](https://github.com/oceanproteinportal/data-file-templates/raw/master/tabular/TEMPLATE_README.csv)_)
 
 | peptide spectral count fields | Definition                                                                                                                                             | required, recommended or optional | data type | units           | format     | multi-valued data cell? | relationships between files                             | example                                 | 
 |-------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------|-----------|-----------------|------------|-------------------------|---------------------------------------------------------|-----------------------------------------| 
