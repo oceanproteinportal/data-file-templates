@@ -91,10 +91,10 @@ If you have any questions about submitting data please contact **Contact Us @ [c
 | kegg_description | The Kegg Orthology Entry definition of corresponding Kegg ID.| optional | string | n/a | | no | | nitrate reductase / nitrite oxidoreductase, alpha subunit [EC:1.7.5.1 1.7.99.-] |
 | kegg_pathway | The relevant Kegg Pathway names for the corresponding Kegg ID.| optional | string | n/a | separate multiple-values with '\|\|' | yes | | Nitrogen metabolism \|\| Two-component system |
 | pfams_id | The PFams identifier.| optional | string | n/a | | yes | | PF00886 |
-| pfams_name | The PFams name as it correlates to the preceding PFams identifier. | optional | string | n/a | | yes | | Ribosomal protein S16 |
-| uniprot_id | The Uniprot identifier.| optional | string | n/a | | yes | | A8G695 |
-| enzyme_comm_id | The Enzyme Commission identifer. | optional | string | n/a | | yes | | |
-| other_identified_proteins | Other protein IDs from the FASTA file| optional | string | n/a | | yes | A protein identifier in the FASTA file | |
+| pfams_name | The PFams name as it rrelated to the associated PFams identifier. | optional | string | n/a | separate multiple-values with '\|\|' | yes | | Ribosomal protein S16 |
+| uniprot_id | The Uniprot identifier.| optional | string | n/a | separate multiple-values with '\|\|' | yes | | A8G695 |
+| enzyme_comm_id | The Enzyme Commission identifer. | optional | string | n/a | separate multiple-values with '\|\|' | yes | | |
+| other_identified_proteins | Other protein IDs from the FASTA file| optional | string | n/a | separate multiple-values with '\|\|' | yes | A protein identifier in the FASTA file | |
 
 [back to top](#)
 
