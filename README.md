@@ -25,43 +25,49 @@ Field descriptions, units, types, and requirements:
 * [Peptide Spectral Counts](#peptide-spectral-count-field-names-descriptions-units)
 
 Formatting instructions:
-* Include all data fields labeled as "required" in your data.  
-* Use the OPP templates column names in your data files.  
+* Include all data fields labeled as "required" in your data.
+* Use the OPP templates column names in your data files exactly.
 * Protein identifiers used in your FASTA file should match the identifiers in your spectral count data.
-* Ensure that your data are processed, QA/QC’ed and research ready.  
+* Ensure that your data are **processed, QA/QC’ed and research ready**. 
 * Check that your data are compliant with the types defined in the template (e.g. best_protein_id_probability is a float so shouldn’t be a percent or include the % symbol in the value).
-* You can include additional columns not defined in the template.
+* You can include additional columns not defined in the template.  
 
-### Fill out a metadata form ###
+### Submit your data files and metadata ###
 
-Download a copy of the BCO-DMO [DATASET.rtf](https://www.bco-dmo.org/files/bcodmo/DATASET.rtf) metadata form.
+#### Make a BCO-DMO dataset submission ####
 
-The form includes a section to document your **Parameter names, descriptions, units.**  You can download a copy of the template column names, descriptions and units csv files and modify them as needed so they correctly describe your data. 
+* Go to https://submit.bco-dmo.org/ and choose "Submit a New Dataset." 
+* Complete the metadata for your dataset and upload your files.
+**  This includes a section to document your "Parameters" meaning column names, descriptions, and units in your protein and peptide data tables. You can download a copy of the template column names, descriptions and units csv files and modify them as needed so they correctly describe your particular data. You can upload these parameter description files to the "Files" section of your submission, or include them as text in the "Parameters" section.
 * [Protein spectral count field names, descriptions, units](tabular/TEMPLATE_Protein_README.csv) (csv)
 * [Peptide spectral count field names, descriptions, units](tabular/TEMPLATE_Peptide_README.csv) (csv)
 
-You can include these column descriptions directly in your DATASET.rtf metadata form, or include them as separate csv or Excel files in your submission.
-
-Make sure to include in your column descriptions:
-* The time zone of the date and time columns.
+**Make sure to include in your column descriptions:**
+* The **time zone** of the date_y-m-d and time_h-m-s columns.  
 * Include any missing data identifiers used in your data (e.g. NA, nd, NaN, -999)
 * For any cell that can store multiple values (e.g. other_protein_ids), please notify us of the string which identifies the delimiter between each value.
 
-More guidance about preparing files for submission to BCO-DMO can be found on the [How To](https://www.bco-dmo.org/how-get-started) page.
+#### What do I do if I need to update my dataset to a new version?
 
-### Submit your data ###
+* Please email info@bco-dmo.org explaining you'd like to update data that is a part of the Ocean Protein Portal.
+* Provide the information and files described here: https://bcodmo.gitbook.io/how-to/contribute/updating-a-dataset. 
 
-* Email your data files and a completed copy of the DATASET.rtf (metadata form) to info@bco-dmo.org.
-* In your email, indicate that you would like the dataset included in the Ocean Protein Portal.
+#### BCO-DMO submission resources:
 
-## What happens after I submit data?  ##
+If you need help preparing or submitting your dataset(s), you can reach out to us at info@bco-dmo.org.  In your email, indicate that you would like the dataset included in the Ocean Protein Portal.
 
-A data manager will:
-* Confirm receipt of your dataset.  
-* Create a public dataset landing page at BCO-DMO with the metadata you included in your DATASET.rtf metadata form.  
-* Ask questions during the data serving process, and get back to you for your final review of the data and metadata before it is imported into OPP. 
-* Publish your final, validated dataset on the BCO-DMO website.
-* Mint a Digital Object Identifier (DOI) for your data.
+* Submission tool FAQs: https://bcodmo.gitbook.io/how-to/submission-tool-faqs
+* Submitting data with the Submission Tool (includes walkthrough): https://bcodmo.gitbook.io/how-to/contribute/submitting-data-with-submission-tool
+
+### What happens after I submit data?  ##
+
+* You will receive an immediate automated message confirming BCO-DMO received your data submission and it is "Under Review."  
+** If you do not see this email check your spam filter to allow mail from (bcodmo.bot@gmail.com and info@bco-dmo.org)
+* BCO-DMO will review your data submission and send you an email within 48hours from info@bco-dmo.org.  That email will confirm BCO-DMO accepted the submission or whether additional information or files are needed. If you don't already have a project registered at BCO-DMO we may ask you to "Register a Project" at submit.bco-dmo.org.
+* BCO-DMO will add an additional column ISO_DateTime_UTC (in UTC time zone) to your tables if it is not already included.  BCO-DMO uses the ISO 8601 datetime with timezone format "%Y-%m-%dT%H:%M(:%S)Z" AKA "YYYY-MM-DDThh:mm(:ss)Z" .
+* Your dataset will be ingested into the Ocean Protein Portal and will have public dataset pages at BCO-DMO containing the information you provided along with your data submission.
+* You will be sent links to review draft dataset pages ahead of public release at BCO-DMO.  We will need your final review of these draft pages.
+* A Digital Object Identifier (DOI) will be assigned to your datasets.
 
 If you have any questions about submitting data please contact **Contact Us @ [contact@oceanproteinportal.org](mailto:contact@oceanproteinportal.org)** or [info@bco-dmo.org](info@bco-dmo.org),
 
