@@ -16,7 +16,7 @@ Format your data according to the following templates.
 
 Field names as a csv file:
 * Protein Spectral Counts [[template](tabular/TEMPLATE_Protein-Spectral-Counts.csv)] _(csv)_
-* FASTA of Protein Identifications
+* FASTA of Protein Identifications (see more [about FASTA format at NCBI](https://blast.ncbi.nlm.nih.gov/doc/blast-topics/#fasta) )
 * Peptide Spectral Counts [[template](tabular/TEMPLATE_Peptide-Spectral-Counts.csv)] _(csv)_
 
 Field descriptions, units, types, and requirements:
